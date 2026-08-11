@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
         host === "pawchive.pw" ||
         host === "www.pawchive.pw"
     ) {
-        return "PROXY 103.27.185.213:18080";
+        return "HTTPS node-jp-00616.mudfish.net:18082";
     }
 
     return "DIRECT";

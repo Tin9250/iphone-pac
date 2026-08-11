@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
         host === "pawchive.pw" ||
         host === "www.pawchive.pw"
     ) {
-        return "PROXY 203.76.245.185:18080";
+        return "PROXY 103.27.185.213:18080";
     }
 
     return "DIRECT";
